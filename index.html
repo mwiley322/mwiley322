@@ -14,25 +14,33 @@
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- scripts -->
   <script type="text/javascript" src="assets/js/app.js"></script>
+  <script src="https://use.fontawesome.com/79c03df9c4.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
-  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebusneuebold" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav class = "clearfix">
-        <a href="https://www.linkedin.com/in/meganrwiley/" target="_blank">LinkedIn</a>
-        <a href="#">CodePen</a>
-        <a href="#">GitHub</a>
+        <a href="https://www.linkedin.com/in/meganrwiley/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
     </nav>
     <!-- <div id="page-wrapper"> -->
       <div class="first">
         <h1>Megan R. Wiley</h1>
-        <h3>Software Developer and something funny</h3>
+        <h3>Software Engineer | Boss Lady | Pizza Scientist</h3>
       </div>
       <div class="second">
         <h2>About Me</h2>
-        <p>I'm amazing!</p>
+        <p> I want learning about me to be fun. Click the button below to generate a random fact!
+          <br>
+          <button id="randomFactButton">Random fact generator</button>
+        </p>
+        <br>
+        <p id="randomFactHere"></p>
+        <aside><img id="myFace" src="http://i.imgur.com/3NMlyvG.jpg"></aside>
       </div>
       <div class="children" id="third-first">
         <img src="https://www.w3schools.com/csS/img_lights.jpg">

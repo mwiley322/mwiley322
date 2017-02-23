@@ -1,24 +1,51 @@
 body {
-  background-color: black;
+  background-color: white;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+
+  /*background-image: url("https://c1.staticflickr.com/2/1520/24330829813_944c817720_b.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:center-top;
+  background-position-x: 50%;
+  background-position-y: 0%;
+  -webkit-animation: zoomin 2s 1;*/
 }
 
+/*@-webkit-keyframes zoomin {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(2);
+    }
+}*/
+
 nav {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(217, 241, 227, 0.72);
   border-radius: 4px;
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
 }
 
 a {
   float: right;
   padding: 1.4vh;
-  background-color: orange;
   text-decoration: none;
   color: black;
 }
 
+.fa {
+  font-size: 20px !important;
+}
+
 nav a:hover {
-   background-color: #1aea17;
+   background-color: rgba(74, 149, 108, 0.54);
    color: #fff;
+   text-shadow: 2px 2px 4px green;
 }
 
 .clearfix:after {
@@ -31,13 +58,19 @@ nav a:hover {
 }
 
 h1 {
-  padding-top: 120px;
-  font-size: 6em;
-  font-family: 'Questrial', sans-serif;
+  padding-top: 1.5em;
+  font-size: 9em;
+  text-shadow: 2px 2px 4px black;
+  font-family: 'BebasNeueBold';
+  font-weight: normal;
+  font-style: normal;
 }
 
-h2 {
-  padding-top: 30px;
+h3 {
+  font-weight: 400;
+  margin-top: -86px;
+  letter-spacing: 4px;
+  text-shadow: 5px 5px 10px black;
 }
 /*#page-wrapper {
   text-align: center;
@@ -51,9 +84,9 @@ h2 {
   width: 100%;
   height: 100%;
   min-width: 1427px;
-  min-height: 600px;
-  background-color: green;
-  margin-top: -64px;
+  min-height: 745px;
+  background: url('http://i.imgur.com/GJNIW8E.jpg');
+  margin-top: -96px;
   color: white;
 }
 
@@ -61,9 +94,13 @@ h2 {
   width: 100%;
   height: 100%;
   min-width: 1427px;
-  min-height: 400px;
-  background-color: blue;
+  min-height: 500px;
+  background-color: white;
   margin-top: -20px;
+}
+
+aside {
+  float:right;
 }
 
 .children {
@@ -75,6 +112,14 @@ img {
   width: 250px;
   margin-top: 30px;
   border-radius: 10px;
+}
+
+#myFace {
+  height: 300px;
+  width: 300px;
+  border-radius: 0px;
+  border-left: solid black 2px;
+  padding: 0 70px 0 30px;
 }
 
 p {
