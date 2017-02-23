@@ -1,27 +1,9 @@
 body {
-  background-color: white;
+  background-color: blue;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-
-  /*background-image: url("https://c1.staticflickr.com/2/1520/24330829813_944c817720_b.jpg");
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  background-size:cover;
-  background-position:center-top;
-  background-position-x: 50%;
-  background-position-y: 0%;
-  -webkit-animation: zoomin 2s 1;*/
 }
-
-/*@-webkit-keyframes zoomin {
-    0% {
-        -webkit-transform: scale(1);
-    }
-    100% {
-        -webkit-transform: scale(2);
-    }
-}*/
 
 nav {
   background-color: rgba(217, 241, 227, 0.72);
@@ -66,6 +48,10 @@ h1 {
   font-style: normal;
 }
 
+h2 {
+  padding-top: 2.2em;
+}
+
 h3 {
   font-weight: 400;
   margin-top: -86px;
@@ -94,9 +80,18 @@ h3 {
   width: 100%;
   height: 100%;
   min-width: 1427px;
-  min-height: 500px;
+  min-height: 600px;
   background-color: white;
   margin-top: -20px;
+}
+
+.second h2 {
+  padding-right: 13em;
+}
+
+.second p {
+  float: left;
+  padding-left: 7em;
 }
 
 aside {
@@ -110,15 +105,14 @@ aside {
 img {
   height: 200px;
   width: 250px;
-  margin-top: 30px;
+  padding-top: 100px;
   border-radius: 10px;
 }
 
 #myFace {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   border-radius: 0px;
-  border-left: solid black 2px;
   padding: 0 70px 0 30px;
 }
 
@@ -133,8 +127,21 @@ p {
   height: 100%;
   max-width: 479.3px;
   min-height: 500px;
-  background-color: purple;
+  background-color: rgb(33, 122, 140);
   float: left;
+}
+
+#third-first p,
+#third-second p,
+#third-third p {
+  padding-top: 100px;
+}
+
+#third-first h3,
+#third-second h3,
+#third-third h3 {
+  padding-top: 5px;
+  margin-top: -200px;
 }
 
 #third-second {
@@ -142,16 +149,16 @@ p {
   height: 100%;
   max-width: 479.3px;
   min-height: 500px;
-  background-color: white;
+  background-color: #4bc7bd;
   float: left;
 }
 
 #third-third {
   width: 100%;
   height: 100%;
-  max-width: 479.3px;
+  max-width: 480px;
   min-height: 500px;
-  background-color: yellow;
+  background-color: rgb(33, 122, 140);
 }
 
 .fourth {
@@ -159,7 +166,7 @@ p {
   height: 100%;
   min-width: 1427px;
   min-height: 400px;
-  background-color: red;
+  background-color: white;
   margin-top: -20px;
 }
 
@@ -168,7 +175,7 @@ footer {
   height: 100%;
   min-width: 1427px;
   min-height: 25px;
-  background-color: pink;
+  background-color: rgba(217, 241, 227, 1);
   margin-top: -19px;
   font-size: .75em;
   line-height: 25px;
