@@ -134,14 +134,16 @@ p {
 #third-first p,
 #third-second p,
 #third-third p {
-  padding-top: 100px;
+  padding-top: 250px;
 }
 
 #third-first h3,
 #third-second h3,
 #third-third h3 {
   padding-top: 5px;
-  margin-top: -200px;
+  margin-top: -275px;
+  text-shadow: 2px 2px 3px grey;
+  letter-spacing: .1em;
 }
 
 #third-second {
