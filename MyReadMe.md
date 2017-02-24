@@ -2,10 +2,10 @@
 
 
 
-# My Portfolio 
+# My Portfolio
 --
 
-This project was pushed my CSS skills to the limit to ensure recreate a Bootstrap-style web page without using Bootstrap at all. It includes links to contact me, an interactive button to learn more about me, and hosts a space for future projects of mine.
+This project pushed my CSS skills to the limit to recreate a Bootstrap-style web page without using Bootstrap. It includes links to contact me, an interactive button to learn more about me, and hosts a space for future projects of mine.
 
 ## Technologies
 
@@ -32,6 +32,11 @@ This project was pushed my CSS skills to the limit to ensure recreate a Bootstra
 
 <img src="http://i.imgur.com/A1pKxBd.png" width="600">
 
+I struggled with getting my DOM eventListener to work until Jean showed me how to implement useCapture. Some more info on that below...
+
+<img src="http://i.imgur.com/tfQzDH3.png" width="600">
+
+
 
 ##Ideas for the Future
 * Mobile responsive design
@@ -42,6 +47,4 @@ This project was pushed my CSS skills to the limit to ensure recreate a Bootstra
 ###Links
 
 [Portfolio](http://mwiley322.github.io "Megan Wiley's Portfolio") <br>
-[Something important](https://www.youtube.com/watch?v=dQw4w9WgXcQ "???") 
-
-
+[Something important](https://www.youtube.com/watch?v=dQw4w9WgXcQ "???")
