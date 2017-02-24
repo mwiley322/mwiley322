@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  background-color: white;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -11,9 +11,10 @@ nav {
   z-index: 9999;
   position: fixed;
   width: 100%;
+  box-shadow: 1px 1px 3px #999999;
 }
 
-a {
+nav a {
   float: right;
   padding: 1.4vh;
   text-decoration: none;
@@ -21,7 +22,8 @@ a {
 }
 
 .fa {
-  font-size: 20px !important;
+  font-size: 3em !important;
+  color: #cc3ea4;
 }
 
 nav a:hover {
@@ -49,7 +51,7 @@ h1 {
 }
 
 h2 {
-  padding-top: 2.2em;
+  padding-top: 5em;
 }
 
 h3 {
@@ -65,7 +67,10 @@ h3 {
   margin-top: -21px;
 }*/
 
+.teal {
+  color: #217a8c;
 
+}
 .first {
   width: 100%;
   height: 100%;
@@ -86,12 +91,10 @@ h3 {
 }
 
 .second h2 {
-  padding-right: 13em;
-}
-
-.second p {
-  float: left;
-  padding-left: 7em;
+  padding-right: 14em;
+  color: #854946;
+  font-weight: 600;
+  font-size: 2em;
 }
 
 aside {
@@ -114,12 +117,23 @@ img {
   width: 400px;
   border-radius: 0px;
   padding: 0 70px 0 30px;
+  margin-top: -7em;
 }
 
 p {
   padding: 23px 23px;
   text-align: justify;
   display: inline-block;
+}
+
+.second p {
+  width: 50%;
+  text-align: center;
+  float: left;
+  padding-top: 5px;
+  padding-left: 7em;
+  line-height: 27px;
+  font-size: 1.17em;
 }
 
 #third-first {
