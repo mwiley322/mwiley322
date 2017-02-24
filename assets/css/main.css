@@ -91,7 +91,7 @@ h3 {
 }
 
 .second h2 {
-  padding-right: 14em;
+  padding-right: 14.5em;
   color: #854946;
   font-weight: 600;
   font-size: 2em;
@@ -117,7 +117,17 @@ img {
   width: 400px;
   border-radius: 0px;
   padding: 0 70px 0 30px;
-  margin-top: -7em;
+  margin-top: -20em;
+}
+
+button {
+  float: left;
+  display: block;
+  margin-left: 16.3em;
+  font-size: .8em;
+  background-color: rgba(255, 192, 203, 0.25);
+  border-radius: 5px;
+  border: 1px solid #999999;
 }
 
 p {

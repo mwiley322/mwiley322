@@ -9,12 +9,13 @@ var randomFacts = [ "I started my coding journey at General Assembly.",
   "I have an orange tabby cat named Love.",
   "I am a sperm donor baby and I have two unknown siblings my age somewhere in the world.",
   "I was the Music Director of my college a cappella group at UC Davis, The Spokes.",
-  "I used to be Operations Manager for a staffing company.",
+  "I used to be the Operations Manager for a staffing company.",
   "My car is a stick shift.",
-  "I went to 7 different countries in 2016.",
+  "I went to Europe twice in 2016.",
   "I go to Burning Man annually.",
   "I have a weird obsession with financial planning.",
   "My three favorite values: ingenuity, resourcefulness, perseverance." ]
+
 
 
    var randomFactButton = document.getElementById('randomFactButton');
