@@ -1,81 +1,246 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Megan Wiley: Web Developer</title>
-  <!-- meta -->
-  <meta charset="utf-8" />
-  <meta name="description" content="Personal Site">
-  <meta name="author" content="GA Student">
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <!-- mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <!-- scripts -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
-  <script src="https://use.fontawesome.com/79c03df9c4.js"></script>
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
-  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebusneuebold" type="text/css"/>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <nav class = "clearfix">
-        <a href="#third-first">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="Megan Wiley Resume.pdf" target="_blank">Resume</a>
-    </nav>
-    <!-- <div id="page-wrapper"> -->
-      <div class="first">
-        <h1>Megan R. Wiley</h1>
-        <h3>Software Engineer | Boss Lady | Pizza Scientist</h3>
+  <head>
+    <title>Megan Wiley: Full Stack Web Developer</title>
+    <!-- meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <!-- mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="http://i.imgur.com/7NFflmG.png">
+    <!-- styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav:100" rel="stylesheet">
+    <script src="https://use.fontawesome.com/caa5c82995.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/default.min.css">
+    <link rel="stylesheet" href="assets/css/frst-timeline-style-1.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/jquery.lettering-0.6.1.min.js"></script>
+    <script src="assets/scripts/frst-scale-effect.min.js"></script>
+    <script src="assets/scripts/frst-timeline.min.js"></script>
+    <script src="assets/scripts/jquery.overscroll.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/app.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="col s12 m12 l12">
+        <!-- DESKTOP NAV BAR -->
+        <nav>
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#!" class="right"><img src="http://i.imgur.com/7NFflmG.png" id="logo"></a>
+              <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-2x fa-bars" style="line-height: 80px" aria-hidden="true"></i></a>
+              <ul class="left hide-on-med-and-down">
+                <li class="wrapper space"><a href="#" class="about-btn">About</a></li>
+                <li class="wrapper space"><a href="#">Projects</a></li>
+                <li class="wrapper space"><a href="#">Resume</a></li>
+                <li class="wrapper space"><a href="#" class="contact-btn">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- SLIDE OUT NAV FOR MOBILE -->
+        <ul id="slide-out" class="side-nav">
+          <li><a class="about-btn" href="#!"><i class="fa fa-female" aria-hidden="true"></i>About</a></li>
+          <li><a href="#"><i class="fa fa-code" aria-hidden="true"></i>Projects</a></li>
+          <li><a href="#"><i class="fa fa-external-link" aria-hidden="true"></i>Resume</a></li>
+          <li><a href="#" class="contact-btn"><i class="fa fa-coffee" aria-hidden="true"></i>Contact</a></li>
+        </ul>
+        <div id="header" class="z-depth-2">
+          <h1 id="header-text">Megan R. Wiley</h1>
+          <h3 id="sub-header">Full Stack Web Developer | Boss Lady</h3>
+          <!-- <h1 id="header-text-mobile">Megan<br/>R. Wiley</h1> -->
+          <!-- <h3 id="sub-header-mobile">Full Stack Web<br />Developer | Boss Lady</h3> -->
+        </div>
       </div>
-      <div class="second">
-        <h2>Hello!</h2>
-        <p> I'm here for creative business solutions, team management, <br>and beautifully functional web &amp; mobile applications.<br>
-          <!-- To me, the industry of technology development is as exciting as it gets. <br>If you have a good idea, you can just do it - no-holds-barred. <br>
-          I believe that any idea can be tailored into a great idea, perhaps even life-changing. <br>
-          I believe in the power of a single determined person to make significant change everyone. -->
-          <br>
-          <button id="randomFactButton">Click to learn a random fact!</button></p>
-        </p>
-        <p id="randomFactHere"></p>
-        <aside><img id="myFace" src="http://i.imgur.com/aKs1KXL.png"></aside>
+    </header>
+
+    <!-- ABOUT ME -->
+    <div id="about-me" class="z-depth-5">
+      <div class="col s12 m12 l12 center" style="color: white;">
+        <h3 class="section-header" style="margin-bottom: 3rem">about</h3>
+        <h4 id="fun-info">
+          I am a Full Stack Web Developer based out of Oakland, CA. I enjoy building strange, pretty things that remind me of unicorns (but I can build serious, corporate things, too). When I'm not coding, you can find me conducting pizza experiments, singing at the top of my lungs, and traveling globally and other-worldly. This is how I work.</h4>
+        </h4>
+        <div class="row center" id="about-content">
+          <div class="col l4 m12 s12">
+            <h4 class="sub-info">I think inquisitively and creatively about the goal of my projects.</h4>
+            <p>
+              I consider issues from multiple perspectives to ensure that thinkers of all types will understand the final product. I always ask "How can I make this better? Is there a simpler way?" This leads me to constantly refine project goals to maximize their potential.
+            </p>
+          </div>
+          <div class="col l4 m12 s12">
+            <h4 class="sub-info">I actively seek out edge cases and obsess over product quality.</h4>
+            <p>
+              Ideas are brought to life with a positive purpose: maybe it will fix a problem, inspire you, or make tomorrow a bit easier. That's why I make sure that the software I develop is sturdy, well-planned, and ready to deliver a frictionless user experience.
+            </p>
+          </div>
+          <div class="col l4 m12 s12">
+            <h4 class="sub-info">I lead in the way I would like to be led.</h4>
+            <p>
+              When managing teams, I create strength within groups by enabling each person to do what they naturally do best, while simultaneously supporting their endeavors to learn and grow.
+            </p>
+          </div>
+        </div>
+        <button class="btn wrapper2 contact-btn" style="color: black">LET'S CONNECT</button>
       </div>
-      <div class="children" id="third-first">
-        <img src="https://www.w3schools.com/csS/img_lights.jpg">
-        <h3>Project 1 : Lights Lookout</h3>
-        <p> The first project my team and I completed was the Lights Lookout website. After logging in, a user can learn more about the Northern Lights, where to find them, discover the best times and places to view them, and  much more. </p>
-      </div>
-      <div class="children" id="third-second">
-        <img src="https://www.w3schools.com/csS/img_mountains.jpg">
-        <h3>Project 2: Riverbed App</h3>
-        <p> This is the second project I did with my team. "Riverbed" is an app that let's you find amazing places to swim each summer, and, similarly to Waze, it let's the user check in to warn other users about certain things such as high tide, overcrowdedness, glass in the sand, etc. It is ultimately a community of beach explorers.</p>
-      </div>
-      <div class="children" id="third-third">
-        <img src="https://www.w3schools.com/csS/img_fjords.jpg">
-        <h3>Project 3: HikerLuxe</h3>
-        <p> If you enjoy the outdoors, then this app is for you - plain and simple. This app has everything one might need if they are the adventurous type. A user can meet up with other hikers, find cool new places, prepare camping lists specific to a trail, and even take courses on survival techniques!</p>
-      </div>
-      <div class="fourth" id="contact">
-        <h2>Let's connect!</h2>
-        <p>I'm currently seeking new opportunities for freelance web &amp; app development, idea generation, and product/team management</p>
-        <br>
-        <br>
-        <a href="https://www.linkedin.com/in/meganrwiley/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-        <a href="http://codepen.io/megacodes/" target="_blank"><i class="fa fa-codepen teal" aria-hidden="true"></i></a>
-        <a href="https://github.com/mwiley322" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-        <a href="mailto:mwiley322@gmail.com"><i class="fa fa-envelope-o teal" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/MeganWiley22"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    </div>
+    <div class="col s12 m12 l12" id="back-layer">
+    </div>
+
+
+
+    <!-- START TIMELINE BLOCK -->
+    <div class="frst-container">
+      <div class="container"><h3 class="center section-header" style="margin-bottom: 60px">experience</h3></div>
+      <div class="frst-timeline frst-timeline-style-1 frst-alternate frst-date-opposite">
+
+        <!-- FREELANCE WEB DEVELOPER -->
+        <div class="frst-timeline-block frst-odd-item">
+          <div class="frst-timeline-img">
+              <span><i class="fa fa-star" aria-hidden="true"></i></span>
+          </div>
+          <div class="frst-timeline-content">
+            <div class="frst-timeline-content-inner relevant">
+              <h2>FULL STACK WEB DEVELOPER</h2>
+              <h2 style="color:#6f6f6f">Freelance</h2>
+              <span class="frst-date">Apr. 2017 - Present</span>
+              <ul class="work-details">
+                <li>I work with clients to make sites more intuitive, snazzy, and optimized for conversions. Currently I am redesigning an e-commerce site on Shopify using the Liquid template language written in Ruby.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- CHICKTECH -->
+        <div class="frst-timeline-block frst-even-item">
+          <div class="frst-timeline-img">
+            <span><i class="fa fa-female" aria-hidden="true"></i></span>
+          </div>
+          <div class="frst-timeline-content">
+            <div class="frst-timeline-content-inner relevant">
+              <h2>INSTRUCTIONAL ASSISTANT VOLUNTEER</h2>
+              <h2><a href="https://chicktech.org/" class="company">ChickTECH</a></h2>
+              <span class="frst-date">Apr. 2017 - Present</span>
+              <ul class="work-details">
+                <li>I teach for and assist with a web development fundamentals course, leading the girls to build an Emoji Finder and an About Me page from scratch using HTML, CSS, and JS.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- GENERAL ASSEMBLY -->
+        <div class="frst-timeline-block frst-odd-item">
+          <div class="frst-timeline-img">
+            <span>
+              <i class="fa fa-code" aria-hidden="true"></i>
+            </span>
+          </div>
+          <div class="frst-timeline-content">
+            <div class="frst-timeline-content-inner relevant">
+              <h2>FULL STACK WEB DEVELOPMENT STUDENT</h2>
+              <h2><a href="https://generalassemb.ly/" class="company">General Assembly</a></h2>
+              <span class="frst-date">Feb. 2017 - May 2017</span>
+              <ul class="work-details">
+                <li>Full-time, 3-month immersive course living and breathing JavaScript, Node.js, React, Ruby on Rails, and many other frameworks and tools across the full stack, while heavily practicing agile methodologies and cross-team collaboration</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- PAUL DAVIS -->
+        <div class="frst-timeline-block frst-even-item">
+          <div class="frst-timeline-img">
+            <span><i class="fa fa-building-o" aria-hidden="true"></i></span>
+          </div>
+          <div class="frst-timeline-content">
+            <div class="frst-timeline-content-inner less-relevant">
+              <h2>STRUCTURAL ESTIMATOR &amp; LEAD TRAINER</h2>
+              <h2><a href="https://pauldavis.com/" class="company">Paul Davis Restoration</a></h2>
+              <span class="frst-date">Sep. 2015 - Feb. 2017</span>
+              <ul class="work-details">
+                <li>I crafted precise CAD sketches, scopes of work, and budget and time estimates using hundreds of memorized codes while overseeing teams of engineers, designers, project managers, and product distributors to ensure project completion on time and to exact scope.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- OPERATIONS MANAGER -->
+        <div class="frst-timeline-block frst-odd-item">
+          <div class="frst-timeline-img">
+            <span><i class="fa fa-handshake-o" aria-hidden="true"></i></span>
+          </div>
+          <div class="frst-timeline-content">
+            <div class="frst-timeline-content-inner less-relevant">
+              <h2>OPERATIONS AND GROWTH MANAGER</h2>
+              <h2><a href="https://go-staff.com/" class="company">Go-Staff, Inc.</a></h2>
+              <span class="frst-date">Aug. 2014 - Aug. 2015</span>
+              <ul class="work-details">
+                <li>I managed operations for the new company branch, including all hiring, training, marketing, networking, sales, growth analysis, account management, and team scheduling for both internal and external staff.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- MUSIC DIRECTOR-->
+        <div class="frst-timeline-block frst-even-item">
+          <div class="frst-timeline-img">
+            <span><i class="fa fa-music" aria-hidden="true"></i></span>
+          </div>
+          <div class="frst-timeline-content">
+            <div class="frst-timeline-content-inner less-relevant">
+              <h2>MUSIC DIRECTOR</h2>
+              <h2><a href="https://www.thedavisspokes.com/" class="company">The Spokes, UC Davis All Female A Cappella</a></h2>
+              <span class="frst-date">June 2013 - June 2014</span>
+              <ul class="work-details">
+                <li>I led a group of 12+ performers through 10-15 hours of rehearsal per week, teaching new exercises and material I had written solely or in collaboration with another student.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- GRADUATING DAVIS-->
+        <div class="frst-timeline-block frst-odd-item">
+          <div class="frst-timeline-img">
+            <span><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+          </div>
+          <div class="frst-timeline-content">
+            <div class="frst-timeline-content-inner less-relevant">
+              <h2>B.S. HUMAN DEVELOPMENT &amp; B.A. PSYCHOLOGY</h2>
+              <h2><a href="https://www.ucdavis.edu/" class="company">University of California, Davis</a></h2>
+              <span class="frst-date">Sep. 2010 - June 2014</span>
+              <ul class="work-details">
+                <li>Deeply understanding what drives people, why they do what they do, and how they became who they are was the motivation for me to pursue Human Development and Psychology.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
       </div>
-    <!-- </div> -->
+    </div>
+    <!-- END TIMELINE BLOCK -->
+
+      <div id="contact">
+        <h3>Have a project for me? An idea to share? Perhaps a riddle?</h3>
+        <h4>I want to hear from you.</h4>
+        <br>
+        <br>
+        <a href="https://www.linkedin.com/in/meganrwiley/" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://github.com/mwiley322" target="_blank"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
+        <a href="mailto:mwiley322@gmail.com"><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i></a>
+      </div>
       <footer>
-        &copy; Megan Wiley 2017
+        &copy; Megan Wiley <span id="year"></span>
       </footer>
-  </header>
-</body>
+    </div>
+  </body>
 </html>
