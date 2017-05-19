@@ -114,14 +114,14 @@ h2, h3 {
 #about-me {
   background: #eaeded;
   color: #333;
-  height: 760px;
   width: 70vw;
   position: absolute;
   z-index: 9999;
-  margin-top: -3.5vw;
+  margin-top: -3vw;
   margin-right: 15%;
   margin-left: 15%;
   max-width: 70vw;
+  padding-bottom: 40px;
 }
 
 .breathing-room {
@@ -129,8 +129,13 @@ h2, h3 {
   padding-left: 25px !important;
 }
 
+.breathing-room2 {
+  padding-right: 35px !important;
+  padding-left: 35px !important;
+}
+
 #back-layer {
-  height: 600px;
+  height: 670px;
   background-color: #d5c9d5;
 }
 
@@ -198,8 +203,7 @@ h2, h3 {
 }
 
 #projects {
-  height: 680px;
-  padding-top: 200px;
+  padding-top: 150px;
   background-color: #efe2da;
 }
 
@@ -311,19 +315,24 @@ h2, h3 {
   background-color:#06f;
 }
 
+/*EXPERIENCE*/
+
+
+#experience-squiggle {
+  margin-bottom: 90px;
+}
 
 /*CONTACT*/
 
 #contact-back {
   text-align: center;
-  height: 500px;
+  height: 275px;
   background: url('http://i.imgur.com/tR2nYwn.jpg');
   filter: opacity(.75);
 }
 
 #contact {
-  background-color: rgb(185, 216, 212);
-  height: 510px;
+  background-color: #dcccd5;
   width: 80vw;
   position: absolute;
   z-index: 9999;
@@ -331,15 +340,21 @@ h2, h3 {
   margin-right: 10%;
   margin-left: 10%;
   max-width: 80vw;
-  border-radius: 0 0 10% 10%;
 }
 
+#contact-content {
+  color: #333;
+}
+
+#contact-squiggle {
+  margin-bottom: 1.5rem;
+}
 
 /*FOOTER*/
 
 footer {
-  height: 100px;
-  padding-top: 20px;
+  color: #333;
+  padding: 20px;
   text-align: center;
-  background-color: #dcccd5;
+  background-color: #EAEDED;
 }

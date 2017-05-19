@@ -16,6 +16,13 @@ $(function() {
     }, 600);
   });
 
+  $(".experience-btn").click(function() {
+    $('.button-collapse').sideNav('hide');
+    $('html, body').animate({
+        scrollTop: $("#experience").offset().top
+    }, 620);
+  });
+
   $(".contact-btn").click(function() {
     $('.button-collapse').sideNav('hide');
     $('html, body').animate({

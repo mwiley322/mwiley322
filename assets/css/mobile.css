@@ -38,7 +38,6 @@
   }
 
   #about-me {
-    height: 1080px;
     width: 90vw;
     margin-top: -10vw;
     margin-right: 5%;
@@ -47,7 +46,7 @@
   }
 
   #back-layer {
-    height: 1015px;
+    height: 1220px;
   }
 
   #about-content {
@@ -61,13 +60,9 @@
     text-align: left;
   }
 
-  /*#skills {
-    height: 215px;
-    width: 70vw;
-    margin-right: 15%;
-    margin-left: 15%;
-    max-width: 70vw;
-  }*/
+  #projects {
+    padding-top: 100px;
+  }
 
   /*#header-text-mobile {
     visibility: visible;
