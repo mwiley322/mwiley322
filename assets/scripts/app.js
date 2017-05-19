@@ -9,6 +9,13 @@ $(function() {
     }, 500);
   });
 
+  $(".projects-btn").click(function() {
+    $('.button-collapse').sideNav('hide');
+    $('html, body').animate({
+        scrollTop: $("#projects").offset().top
+    }, 600);
+  });
+
   $(".contact-btn").click(function() {
     $('.button-collapse').sideNav('hide');
     $('html, body').animate({
@@ -16,7 +23,9 @@ $(function() {
     }, 700);
   });
 
-  //update copyright year 
+
+
+  //update copyright year
   currentYear = new Date().getFullYear()
   $('#year').text(currentYear);
 

@@ -40,7 +40,7 @@
               <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-2x fa-bars" style="line-height: 80px" aria-hidden="true"></i></a>
               <ul class="left hide-on-med-and-down">
                 <li class="wrapper space"><a href="#" class="about-btn">About</a></li>
-                <li class="wrapper space"><a href="#">Projects</a></li>
+                <li class="wrapper space"><a href="#" class="projects-btn">Projects</a></li>
                 <li class="wrapper space"><a href="#">Resume</a></li>
                 <li class="wrapper space"><a href="#" class="contact-btn">Contact</a></li>
               </ul>
@@ -51,7 +51,7 @@
         <!-- SLIDE OUT NAV FOR MOBILE -->
         <ul id="slide-out" class="side-nav">
           <li><a class="about-btn" href="#!"><i class="fa fa-female" aria-hidden="true"></i>About</a></li>
-          <li><a href="#"><i class="fa fa-code" aria-hidden="true"></i>Projects</a></li>
+          <li><a class="projects-btn" href="#"><i class="fa fa-code" aria-hidden="true"></i>Projects</a></li>
           <li><a href="#"><i class="fa fa-external-link" aria-hidden="true"></i>Resume</a></li>
           <li><a href="#" class="contact-btn"><i class="fa fa-coffee" aria-hidden="true"></i>Contact</a></li>
         </ul>
@@ -65,38 +65,106 @@
     </header>
 
     <!-- ABOUT ME -->
-    <div id="about-me" class="z-depth-5">
-      <div class="col s12 m12 l12 center" style="color: white;">
-        <h3 class="section-header" style="margin-bottom: 3rem">about</h3>
-        <h4 id="fun-info">
-          I am a Full Stack Web Developer based out of Oakland, CA. I enjoy building strange, pretty things that remind me of unicorns (but I can build serious, corporate things, too). When I'm not coding, you can find me conducting pizza experiments, singing at the top of my lungs, and traveling globally and other-worldly. This is how I work.</h4>
+
+    <div id="about-me" class="z-depth-3">
+      <div class="col s12 m12 l12 center">
+        <h3 class="section-header" style="margin-bottom: -.5rem">about</h3>
+        <img src="http://i.imgur.com/U6RNTwH.png" id="about-squiggle">
+        <h4 id="fun-info" class="breathing-room">
+          I am a Full Stack Web Developer based out of Oakland, CA. I enjoy building software that makes experiences, processes, and people better. When I'm not coding, you can find me conducting pizza experiments, singing at the top of my lungs, and traveling globally and other-worldly. I am currently seeking full-time employment to put my detail-oriented and organizational skills to use for development teams, budding startups, or existing companies nurturing new products.</h4>
         </h4>
+
         <div class="row center" id="about-content">
-          <div class="col l4 m12 s12">
+          <div class="col l6 m12 s12 breathing-room">
             <h4 class="sub-info">I think inquisitively and creatively about the goal of my projects.</h4>
             <p>
               I consider issues from multiple perspectives to ensure that thinkers of all types will understand the final product. I always ask "How can I make this better? Is there a simpler way?" This leads me to constantly refine project goals to maximize their potential.
             </p>
           </div>
-          <div class="col l4 m12 s12">
-            <h4 class="sub-info">I actively seek out edge cases and obsess over product quality.</h4>
+          <div class="col l6 m12 s12 breathing-room">
+            <h4 class="sub-info">I obsess over product quality and actively seek out edge cases.</h4>
             <p>
               Ideas are brought to life with a positive purpose: maybe it will fix a problem, inspire you, or make tomorrow a bit easier. That's why I make sure that the software I develop is sturdy, well-planned, and ready to deliver a frictionless user experience.
             </p>
           </div>
-          <div class="col l4 m12 s12">
+          <!-- <div class="col l4 m12 s12 breathing-room">
             <h4 class="sub-info">I lead in the way I would like to be led.</h4>
             <p>
               When managing teams, I create strength within groups by enabling each person to do what they naturally do best, while simultaneously supporting their endeavors to learn and grow.
             </p>
+          </div> -->
+        </div>
+
+        <div class="col s12 m12 l12">
+          <div class="col s12">
+            <ul class="item-list breathing-room">
+              <li class="item">HTML5</li>
+              <li class="item">CSS3</li>
+              <li class="item">JavaScript</li>
+              <li class="item">React.js</li>
+              <li class="item">Ruby</li>
+              <li class="item">AngularJS</li>
+              <li class="item">jQuery</li>
+              <li class="item">Bootstrap</li>
+              <li class="item">Materialize</li>
+              <li class="item">Sketch</li>
+              <li class="item">MongoDB</li>
+              <li class="item">Node.js</li>
+              <li class="item">PostgreSQL</li>
+              <li class="item">Rails</li>
+              <li class="item">Express</li>
+              <li class="item">RESTful APIs</li>
+              <li class="item">Git/Github</li>
+              <li class="item">TDD</li>
+              <li class="item">SEO</li>
+            </ul>
           </div>
         </div>
         <button class="btn wrapper2 contact-btn" style="color: black">LET'S CONNECT</button>
       </div>
     </div>
-    <div class="col s12 m12 l12" id="back-layer">
-    </div>
 
+
+    <div class="col s12 m12 l12" id="back-layer"></div>
+
+
+    <div class="col s12 m12 l12 center" id="projects">
+      <h3 class="section-header" style="margin-bottom: -.3rem">projects</h3>
+      <img src="http://i.imgur.com/uH763Pf.png" id="project-squiggle">
+
+      <div class="container">
+        <div class="websitedisplay">
+          <div class="information">
+            <h1>Octoboard</h1>
+            <h2>Organizational Tool</h2>
+          </div>
+          <div class="laptop">
+            <img src="http://dizin.x10.bz/codepen/BirLf/cid.png" />
+          </div>
+          <!-- <a class="view" href="http://cid.boisestate.edu" target="_blank" title="Live View">+</a> -->
+        </div>
+        <div class="websitedisplay">
+          <div class="information">
+            <h1>TradeUP</h1>
+            <h2>Bartering App</h2>
+          </div>
+          <div class="laptop">
+            <img src="http://dizin.x10.bz/codepen/BirLf/cid.png" />
+          </div>
+          <!-- <a class="view" href="http://cid.boisestate.edu" target="_blank" title="Live View">+</a> -->
+        </div>
+        <div class="websitedisplay">
+          <div class="information">
+            <h1>TechSpace</h1>
+            <h2>Social Networking App</h2>
+          </div>
+          <div class="laptop">
+            <img src="http://dizin.x10.bz/codepen/BirLf/cid.png" />
+          </div>
+          <!-- <a class="view" href="http://cid.boisestate.edu" target="_blank" title="Live View">+</a> -->
+        </div>
+      </div>
+    </div>
 
 
     <!-- START TIMELINE BLOCK -->
@@ -168,7 +236,7 @@
               <h2><a href="https://pauldavis.com/" class="company">Paul Davis Restoration</a></h2>
               <span class="frst-date">Sep. 2015 - Feb. 2017</span>
               <ul class="work-details">
-                <li>I crafted precise CAD sketches, scopes of work, and budget and time estimates using hundreds of memorized codes while overseeing teams of engineers, designers, project managers, and product distributors to ensure project completion on time and to exact scope.</li>
+                <li>I crafted precise CAD sketches, scopes of work, and budget and time estimates using hundreds of memorized codes while overseeing teams of engineers, designers, project managers, and product distributors.</li>
               </ul>
             </div>
           </div>
@@ -185,7 +253,7 @@
               <h2><a href="https://go-staff.com/" class="company">Go-Staff, Inc.</a></h2>
               <span class="frst-date">Aug. 2014 - Aug. 2015</span>
               <ul class="work-details">
-                <li>I managed operations for the new company branch, including all hiring, training, marketing, networking, sales, growth analysis, account management, and team scheduling for both internal and external staff.</li>
+                <li>I managed operations for the new company branch, including all hiring, training, marketing, networking, sales, growth analysis, account management, and team scheduling for internal and external staff.</li>
               </ul>
             </div>
           </div>
@@ -229,16 +297,22 @@
     </div>
     <!-- END TIMELINE BLOCK -->
 
-      <div id="contact">
-        <h3>Have a project for me? An idea to share? Perhaps a riddle?</h3>
-        <h4>I want to hear from you.</h4>
-        <br>
-        <br>
-        <a href="https://www.linkedin.com/in/meganrwiley/" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
-        <a href="https://github.com/mwiley322" target="_blank"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
-        <a href="mailto:mwiley322@gmail.com"><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i></a>
+    <div id="contact" class="z-depth-5">
+      <div class="col s12 m12 l12 center" id="contact-content">
+        <h3 class="section-header" style="margin-bottom: -.5rem">contact</h3>
+      </div>
+    </div>
+      <div id="contact-back">
+        <!-- <h3>Have a project for me? An idea to share? Perhaps a riddle?</h3>
+        <h4>I want to hear from you.</h4> -->
       </div>
       <footer>
+        <div>
+          <a href="https://www.linkedin.com/in/meganrwiley/" target="_blank"><i class="fa fa-2x fa-linkedin-square" style="color: black" aria-hidden="true"></i></a>
+          <a href="https://github.com/mwiley322" target="_blank"><i class="fa fa-2x fa-github" style="color: black" aria-hidden="true"></i></a>
+          <a href="mailto:mwiley322@gmail.com"><i class="fa fa-2x fa-envelope-o" style="color: black" aria-hidden="true"></i></a>
+        </div>
+        <br>
         &copy; Megan Wiley <span id="year"></span>
       </footer>
     </div>
