@@ -60,6 +60,7 @@
   }
 
   #mobile-header {
+    font-weight: 700;
     visibility: visible;
     position: absolute;
     margin-top: 0vw;
