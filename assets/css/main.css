@@ -17,6 +17,10 @@ nav {
   line-height: 80px;
 }
 
+a {
+  color: #4ac8ac;
+}
+
 #logo {
   height: 80px;
 }
@@ -312,6 +316,10 @@ h2, h3 {
   margin-right: 7%;
   margin-left: 7%;
   color: #333;
+}
+
+#other-projects-squiggle {
+  margin-bottom: 30px;
 }
 
 #tradeup, #wingit, #techspace {
