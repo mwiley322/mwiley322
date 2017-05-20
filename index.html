@@ -128,30 +128,26 @@
       <h3 class="section-header" style="margin-bottom: -.3rem">featured project</h3>
       <img src="http://i.imgur.com/uH763Pf.png" id="featured-project-squiggle">
       <div id="featured-project-container">
-        <div class="row z-depth-3" id="octoboard">
-          <div class="col l6 m6 s12 breathing-room">
+        <div class="row z-depth-1" id="octoboard">
+          <div class="col l6 m6 s12 breathing-room" id="featured-left">
             <h4>Octoboard</h4>
-            <p>Created May 2017</p>
             <a href="http://octoboard.herokuapp.com/">View on Heroku</a> | <a href="https://github.com/mwiley322/octoboard">View on Github</a>
-            <div class="featured-info" style="padding-bottom: 25px; padding-top: 20px">
-              <p style="text-align: justify">Octoboard is a CRM-like organizational tool created for job seekers to organize their job search. It holds details on applications, interviews, coding challenges, goals,
+            <div id="featured-info">
+              <p>Octoboard is a CRM-like organizational tool created for job seekers to organize their job search. It holds details on applications, interviews, coding challenges, goals,
               practice interview questions, date reminders, and more.</p>
-              <p style="text-align: justify">After realizing that no other app stores job search details <strong>AND</strong> gets users feeling motivated and prepared, I decided to make it happen. My goal was to create an app that people would want to use on their own, and it worked: <strong>92%</strong> of students from my bootcamp cohort said they planned to use it after graduation.</p>
+              <p>After realizing that no other app stores job search details <strong>AND</strong> gets users feeling motivated and prepared, I decided to make it happen. My goal was to create an app that people would want to use on their own, and it worked: <strong>92%</strong> of students from my bootcamp cohort said they planned to use it after graduation.</p>
             </div>
             <div class="picContainer">
-              <img src="http://i.imgur.com/PAsnVam.png" class="project-img" alt="Dashboard View of Octoboard Project" title="Dashboard View of Octoboard Project">
+              <img src="http://i.imgur.com/PAsnVam.png" class="project-img z-depth-3" alt="Dashboard View of Octoboard Project" title="Dashboard View of Octoboard Project">
               <div class="overlay">
                 <a href="http://octoboard.herokuapp.com/" target="_blank">
                   <div class="text">View App</div>
                 </a>
               </div>
             </div>
-
-
          </div>
          <div class="col l6 m6 s12 breathing-room" style="text-align: justify">
-
-           <h4 style="padding-bottom: 30px">Features</h4>
+           <h4 id="features-header">Features</h4>
            <ul style="text-align: justify">
             <li style="padding-bottom: 10px"><h5><i class="fa fa-line-chart" aria-hidden="true"></i> Data visualization!</h5>
               <p>
@@ -174,7 +170,7 @@
            </li>
            <li style="padding-bottom: 10px"><h5><i class="fa fa-car" aria-hidden="true"></i> Built for users on the go!</h5><p>I worked with a UX design consultant to place each responsive component in an intuitive spot across all devices. The quick search option is pretty cool too.</p></li>
          </ul>
-           <ul class="item-list" style="text-align:center">
+           <ul class="item-list center">
              <li class="project-item">Ruby on Rails</li>
              <li class="project-item">JavaScript</li>
              <li class="project-item">PostgreSQL</li>
@@ -191,10 +187,80 @@
 
     <!-- OTHER PROJECTS -->
     <div class="col s12 m12 l12 center" id="other-projects">
-      <h3 class="section-header" style="margin-bottom: -.3rem">other projects</h3>
-      <div class="other-project-container">
+      <h3 class="section-header" style="margin-bottom: -.3rem; margin-top: 0">other projects</h3>
+      <div id="other-projects-container">
+
+        <!-- TECHSPACE -->
+        <div class="row" id="techspace">
+          <div class="col l5 m5 s12 breathing-room">
+            <h4>TechSpace</h4>
+            <div class="picContainer">
+              <img src="http://i.imgur.com/VHQyNNC.png" class="z-depth-3 project-img" alt="Home View of TechSpace Project" title="Home View of TechSpace Project">
+              <div class="overlay">
+                <a href="https://github.com/mwiley322/Project1-EventApp" target="_blank">
+                  <div class="text">View on Github</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col l7 m7 s12 breathing-room" id="techspace-info">
+            <a href="https://github.com/mwiley322/Project1-EventApp">View on Github</a>
+            <p style="text-align: left">TechSpace is a MEN stack networking application made for the tech community which focuses on connecting users through tech-related events.</p>
+            <ul style="text-align: left">
+              <li>> Built entire database infrastructure and designed error handling and data validation solutions</li>
+              <li>> Implemented jQuery Autocomplete and search-by-date function for a faster search experience</li>
+              <li>> Organized sprint details; led morning scrum</li>
+            </ul>
+            <ul class="item-list">
+              <li class="project-item">JavaScript</li>
+              <li class="project-item">jQuery</li>
+              <li class="project-item">MongoDB</li>
+              <li class="project-item">Express</li>
+              <li class="project-item">Node.js</li>
+              <li class="project-item">Mongoose</li>
+              <li class="project-item">Google Maps API</li>
+              <li class="project-item">jQuery Autocomplete</li>
+            </ul>
+          </div>
+        </div>
+
+          <!-- WING IT -->
+        <div class="row" id="wingit">
+          <div class="col l5 m5 s12 breathing-room">
+            <h4>WingIt</h4>
+            <div class="picContainer">
+              <img src="http://i.imgur.com/hRrKSJY.png" class="z-depth-3 project-img" alt="Home View of WingIt Project" title="Home View of WingIt Project">
+              <div class="overlay">
+                <a href="https://github.com/mwiley322/wingIt" target="_blank">
+                  <div class="text">View on Github</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col l7 m7 s12 breathing-room" id="wingit-info">
+            <a href="https://github.com/mwiley322/wingIt">View on Github</a>
+            <p style="text-align: left">WingIt is a MERN stack travel application where users can connect through city-specific site pages, share experiences through posts, and hold conversations through comments.</p>
+            <ul style="text-align: left">
+              <li>> Implemented Auth0 for user authentication; developed user CRUD functionality</li>
+              <li>> Integrated React Router to keep UI in sync with URL</li>
+              <li>> Primary Project Manager and QA reviewer for my team of 5</li>
+            </ul>
+            <ul class="item-list">
+              <li class="project-item">React</li>
+              <li class="project-item">JavaScript</li>
+              <li class="project-item">MongoDB</li>
+              <li class="project-item">Express</li>
+              <li class="project-item">Node.js</li>
+              <li class="project-item">Mongoose</li>
+              <li class="project-item">MVC Framework</li>
+              <li class="project-item">Auth0</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- TRADE UP -->
         <div class="row" id="tradeup">
-        <div class="col l5 m5 s12">
+        <div class="col l5 m5 s12 breathing-room">
           <h4>TradeUP</h4>
           <div class="picContainer">
             <img src="http://i.imgur.com/Hmbus65.png" class="z-depth-3 project-img" alt="Home View of TradeUP Project" title="Home View of TradeUP Project">
@@ -205,9 +271,15 @@
             </div>
           </div>
         </div>
-        <div class="col l7 m7 s12">
-          <p>TradeUP is a Craigslist-style bartering app that allows users to make site-based transactions on items, services, and experiences. The app was inspired by a man who continuously traded up small items until he ultimately ended up with a house.</p>
-          <h5>Created May 2017</h5>
+        <div class="col l7 m7 s12 breathing-room" id="tradeup-info">
+          <a href="http://trade-up.herokuapp.com/">View on Heroku</a> | <a href="https://github.com/mwiley322/TradeUp_1">View on Github</a>
+          <p style="text-align: left">TradeUP is a Craigslist-style bartering app that allows users to make site-based transactions on items, services, and experiences. The app was inspired by a man who continuously traded up small items until he ultimately ended up with a house.</p>
+          <ul style="text-align: left">
+            <li>> Led front end prototyping and development</li>
+            <li>> Acted as Project Manager for 3 other engineers</li>
+            <li>> Encouraged clear, actionable steps by creating custom infographics for main page</li>
+          </ul>
+
           <ul class="item-list">
             <li class="project-item">Ruby on Rails</li>
             <li class="project-item">ES6 JavaScript</li>
@@ -219,67 +291,15 @@
           </ul>
         </div>
       </div>
-        <div class="row" id="wingit">
-        <div class="col l5 m5 s12">
-          <h4>WingIt</h4>
-          <div class="picContainer">
-            <img src="http://i.imgur.com/hRrKSJY.png" class="z-depth-3 project-img" alt="Home View of WingIt Project" title="Home View of WingIt Project">
-            <div class="overlay">
-              <a href="https://github.com/mwiley322/wingIt" target="_blank">
-                <div class="text">View on Github</div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col l7 m7 s12">
-          <p>WingIt is a MERN stack travel application where users can connect through city-specific site pages, share their experiences through posts, and hold conversations through comments.</p>
-          <h5>Created April 2017</h5>
-          <ul class="item-list">
-            <li class="project-item">React</li>
-            <li class="project-item">JavaScript</li>
-            <li class="project-item">MongoDB</li>
-            <li class="project-item">Express</li>
-            <li class="project-item">Node.js</li>
-            <li class="project-item">Mongoose</li>
-            <li class="project-item">AJAX/JSON</li>
-            <li class="project-item">Auth0</li>
-          </ul>
-        </div>
-      </div>
-        <div class="row" id="techspace">
-        <div class="col l5 m5 s12">
-          <h4>TechSpace</h4>
-          <div class="picContainer">
-            <img src="http://i.imgur.com/VHQyNNC.png" class="z-depth-3 project-img" alt="Home View of TechSpace Project" title="Home View of TechSpace Project">
-            <div class="overlay">
-              <a href="https://github.com/mwiley322/Project1-EventApp" target="_blank">
-                <div class="text">View on Github</div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col l7 m7 s12">
-          <p>TechSpace is a MEN stack networking application made for the tech community which focuses on connecting users through tech-related events.</p>
-          <h5>Created March 2017</h5>
-          <ul class="item-list">
-            <li class="project-item">JavaScript</li>
-            <li class="project-item">jQuery</li>
-            <li class="project-item">MongoDB</li>
-            <li class="project-item">Express</li>
-            <li class="project-item">Node.js</li>
-            <li class="project-item">Mongoose</li>
-            <li class="project-item">Google Maps API</li>
-            <li class="project-item">jQuery Autocomplete</li>
-          </ul>
-        </div>
-      </div>
+
+
       </div>
     </div>
 
 
     <!-- START TIMELINE BLOCK -->
     <div class="frst-container" id="experience">
-      <div class="container center"><h3 class="center section-header" style="margin-bottom: -10px">experience</h3>
+      <div class="container center"><h3 class="center section-header" style="margin-bottom: -10px;">experience</h3>
         <img src="http://i.imgur.com/Oag1ABq.png" id="experience-squiggle">
       </div>
       <div class="frst-timeline frst-timeline-style-1 frst-alternate frst-date-opposite">

@@ -178,7 +178,7 @@ h2, h3 {
 /*SKILLS*/
 
 .item-list {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .item-list li {
@@ -200,7 +200,7 @@ h2, h3 {
 
 #featured-project {
   padding-top: 100px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   background-color: #efe2da;
 }
 
@@ -226,10 +226,23 @@ h2, h3 {
   font-family: 'Yantramanav', sans-serif
 }
 
+#featured-left {
+  border-right: 1px solid grey;
+}
+
+#features-header {
+  padding-bottom: 30px;
+}
+
+#featured-info {
+  padding-bottom: 25px;
+  padding-top: 20px;
+  text-align: justify;
+}
 
 #octoboard {
   background-color: #eaeded;
-  padding: 30px;
+  padding: 30px 30px 0 30px;
 }
 
 
@@ -246,7 +259,6 @@ h2, h3 {
 }
 
 .project-img {
-  border: 5px solid #333;
   border-radius: 3px;
   display: block;
   width: 100%;
@@ -288,7 +300,13 @@ h2, h3 {
 
 /*OTHER PROJECT SECTION*/
 
-#other-project-container {
+#other-projects {
+  background-color: #eef7f1;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+
+#other-projects-container {
   width: 86%;
   max-width: 86%;
   margin-right: 7%;
@@ -296,6 +314,31 @@ h2, h3 {
   color: #333;
 }
 
+#tradeup, #wingit, #techspace {
+  padding: 30px;
+}
+
+#other-projects-container h4 {
+  font-size: 2.1rem;
+  font-family: 'Yantramanav', sans-serif
+}
+
+#other-projects-container h5 {
+  font-size: 1.5rem;
+  font-family: 'Yantramanav', sans-serif
+}
+
+#tradeup-info {
+  padding-top: 75px;
+}
+
+#wingit-info {
+  padding-top: 55px;
+}
+
+#techspace-info {
+  padding-top: 55px;
+}
 
 /*EXPERIENCE*/
 
