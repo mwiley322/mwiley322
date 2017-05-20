@@ -1,6 +1,7 @@
 $(function() {
   $(".button-collapse").sideNav();
   $("#header-text").lettering();
+  $("#header-text-mobile").lettering();
 
   $(".about-btn").click(function() {
     $('.button-collapse').sideNav('hide');

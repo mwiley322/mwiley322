@@ -34,6 +34,7 @@ h2,
 h3 {
   font-family: 'Yantramanav', sans-serif;
 }
+
 /*
 #header-text {
   font-size: 7vw;
@@ -44,11 +45,11 @@ h3 {
   letter-spacing: -.70vw;
 }*/
 
-/*#mobile-header {
+#mobile-header {
   visibility: hidden;
 }
 
-#sub-header {
+/*#sub-header {
   letter-spacing: 1px;
   margin-left: 14.5vw;
   margin-top: -1.5vw;
