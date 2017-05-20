@@ -7,10 +7,6 @@
   background-image: url('http://i.imgur.com/n4t4S2A.jpg');
 }
 
-.space {
-  padding: 0 20px 0 20px;
-}
-
 nav {
   height: 80px;
   background-color: #000;
@@ -29,7 +25,8 @@ nav ul li a:hover {
   background-color: transparent;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: 'Yantramanav', sans-serif;
 }
 
@@ -42,7 +39,8 @@ h2, h3 {
   letter-spacing: -.70vw;
 }
 
-#header-text-mobile, #sub-header-mobile {
+#header-text-mobile,
+#sub-header-mobile {
   visibility: hidden;
 }
 
@@ -52,10 +50,11 @@ h2, h3 {
   top: 325px;
   font-size: 2.3vw;
   font-family: 'Yantramanav', sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
-#header-text span, #sub-header span {
+#header-text span,
+#sub-header span {
   mix-blend-mode: multiply;
 }
 
@@ -63,7 +62,8 @@ h2, h3 {
   background: url('http://i.imgur.com/xzBo6bZ.jpg');
 }
 
-.wrapper:hover, .wrapper2 {
+.wrapper:hover,
+.wrapper2 {
   background: linear-gradient(40deg, #dd33f7, #e91e8b, #f1f470, #1ddde8, #948cf7, #dd00f3);
   background-size: 500% 500%;
   -webkit-animation: rainbow 10s ease infinite;
@@ -104,17 +104,6 @@ h2, h3 {
   100%{background-position:0% 82%}
 }
 
-.gradient {
-  width: 2vw;
-  height: 5px;
-  border-radius: 3px;
-  background: grey; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(-90deg, #da6ca4, #9cf1f1); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(-90deg, #da6ca4, #9cf1f1); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(-90deg, #da6ca4, #9cf1f1); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(-90deg, #da6ca4, #9cf1f1);
-}
-
 #about-me {
   background: #eaeded;
   color: #333;
@@ -128,6 +117,10 @@ h2, h3 {
   padding-bottom: 40px;
 }
 
+.space {
+  padding: 0 20px 0 20px;
+}
+
 .breathing-room {
   padding-right: 25px !important;
   padding-left: 25px !important;
@@ -139,7 +132,7 @@ h2, h3 {
 }
 
 #back-layer {
-  height: 670px;
+  height: 655px;
   background-color: #d5c9d5;
 }
 
@@ -163,7 +156,8 @@ h2, h3 {
 }
 
 .sub-info {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
+  font-family: 'Yantramanav', sans-serif;
 }
 
 .work-details {
@@ -191,7 +185,7 @@ h2, h3 {
 
 .item {
   margin-bottom: .812em;
-  padding: .357em 1.071em;
+  padding: .15em .9em;
   font-size: .875em;
   line-height: 1;
   font-style: italic;
@@ -222,12 +216,12 @@ h2, h3 {
 
 #featured-project-container h4 {
   font-size: 2.1rem;
-  font-family: 'Yantramanav', sans-serif
+  font-family: 'Yantramanav', sans-serif;
 }
 
 #featured-project-container h5 {
   font-size: 1.5rem;
-  font-family: 'Yantramanav', sans-serif
+  font-family: 'Yantramanav', sans-serif;
 }
 
 #featured-left {
@@ -235,7 +229,7 @@ h2, h3 {
 }
 
 #features-header {
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 #featured-info {
@@ -269,7 +263,6 @@ h2, h3 {
   height: auto;
 }
 
-
 .picContainer {
   position: relative;
 }
@@ -293,7 +286,7 @@ h2, h3 {
 .text {
   white-space: nowrap;
   font-size: 20px;
-  color: white !important;
+  color: #eaeded !important;
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -322,7 +315,9 @@ h2, h3 {
   margin-bottom: 30px;
 }
 
-#tradeup, #wingit, #techspace {
+#tradeup,
+#wingit,
+#techspace {
   padding: 30px;
 }
 
@@ -340,26 +335,22 @@ h2, h3 {
   padding-top: 75px;
 }
 
-#wingit-info {
-  padding-top: 55px;
-}
-
+#wingit-info,
 #techspace-info {
   padding-top: 55px;
 }
 
 /*EXPERIENCE*/
 
-
 #experience-squiggle {
-  margin-bottom: 90px;
+  margin-bottom: 80px;
 }
 
 /*CONTACT*/
 
 #contact-back {
   text-align: center;
-  height: 275px;
+  height: 330px;
   background: url('http://i.imgur.com/tR2nYwn.jpg');
   filter: opacity(.75);
 }
@@ -369,7 +360,7 @@ h2, h3 {
   width: 80vw;
   position: absolute;
   z-index: 9999;
-  margin-top: -4vw;
+  margin-top: -5vw;
   margin-right: 10%;
   margin-left: 10%;
   max-width: 80vw;
@@ -377,6 +368,11 @@ h2, h3 {
 
 #contact-content {
   color: #333;
+  padding-bottom: 35px;
+}
+
+#contact-content h4, h5 {
+  font-family: 'Yantramanav', sans-serif;
 }
 
 #contact-squiggle {
