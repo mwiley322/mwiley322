@@ -51,11 +51,11 @@
 
         <!-- SLIDE OUT NAV FOR MOBILE -->
         <ul id="slide-out" class="side-nav">
-          <li><a class="about-btn" href="#!"><i class="fa fa-female" aria-hidden="true"></i>About</a></li>
-          <li><a class="projects-btn" href="#"><i class="fa fa-code" aria-hidden="true"></i>Projects</a></li>
-          <li><a class="experience-btn" href="#"><i class="fa fa-bolt" aria-hidden="true"></i>Experience</a></li>
-          <li><a href="#"><i class="fa fa-external-link" aria-hidden="true"></i>Resume</a></li>
-          <li><a href="#" class="contact-btn"><i class="fa fa-coffee" aria-hidden="true"></i>Contact</a></li>
+          <li class="wrapper"><a class="about-btn" href="#!"><i class="fa fa-female" aria-hidden="true"></i>About</a></li>
+          <li class="wrapper"><a class="projects-btn" href="#"><i class="fa fa-code" aria-hidden="true"></i>Projects</a></li>
+          <li class="wrapper"><a class="experience-btn" href="#"><i class="fa fa-bolt" aria-hidden="true"></i>Experience</a></li>
+          <li class="wrapper"><a href="#"><i class="fa fa-external-link" aria-hidden="true"></i>Resume</a></li>
+          <li class="wrapper"><a href="#" class="contact-btn"><i class="fa fa-coffee" aria-hidden="true"></i>Contact</a></li>
         </ul>
         <div id="header" class="z-depth-2">
           <h1 id="header-text">Megan R. Wiley</h1>
@@ -128,7 +128,7 @@
       <h3 class="section-header" style="margin-bottom: -.3rem">featured project</h3>
       <img src="http://i.imgur.com/uH763Pf.png" id="featured-project-squiggle">
       <div id="featured-project-container">
-        <div class="row z-depth-1" id="octoboard">
+        <div class="row" id="octoboard">
           <div class="col l6 m6 s12 breathing-room" id="featured-left">
             <h4>Octoboard</h4>
             <a href="http://octoboard.herokuapp.com/">View on Heroku</a> | <a href="https://github.com/mwiley322/octoboard">View on Github</a>
@@ -194,7 +194,7 @@
         <!-- TECHSPACE -->
         <div class="row" id="techspace">
           <div class="col l5 m5 s12 breathing-room">
-            <h4>TechSpace</h4>
+            <h4 class="project-title">TechSpace</h4>
             <div class="picContainer">
               <img src="http://i.imgur.com/VHQyNNC.png" class="z-depth-3 project-img" alt="Home View of TechSpace Project" title="Home View of TechSpace Project">
               <div class="overlay">
@@ -207,7 +207,7 @@
           <div class="col l7 m7 s12 breathing-room" id="techspace-info">
             <a href="https://github.com/mwiley322/Project1-EventApp">View on Github</a>
             <p style="text-align: left">TechSpace is a MEN stack networking application made for the tech community which focuses on connecting users through tech-related events.</p>
-            <ul style="text-align: left">
+            <ul class="responsibilities">
               <li>> Built entire database infrastructure and designed error handling and data validation solutions</li>
               <li>> Implemented jQuery Autocomplete and search-by-date function for a faster search experience</li>
               <li>> Organized sprint details; led morning scrum</li>
@@ -227,7 +227,7 @@
           <!-- WING IT -->
         <div class="row" id="wingit">
           <div class="col l5 m5 s12 breathing-room">
-            <h4>WingIt</h4>
+            <h4 class="project-title bordered-title">WingIt</h4>
             <div class="picContainer">
               <img src="http://i.imgur.com/hRrKSJY.png" class="z-depth-3 project-img" alt="Home View of WingIt Project" title="Home View of WingIt Project">
               <div class="overlay">
@@ -240,7 +240,7 @@
           <div class="col l7 m7 s12 breathing-room" id="wingit-info">
             <a href="https://github.com/mwiley322/wingIt">View on Github</a>
             <p style="text-align: left">WingIt is a MERN stack travel application where users can connect through city-specific site pages, share experiences through posts, and hold conversations through comments.</p>
-            <ul style="text-align: left">
+            <ul class="responsibilities">
               <li>> Implemented Auth0 for user authentication; developed user CRUD functionality</li>
               <li>> Integrated React Router to keep UI in sync with URL</li>
               <li>> Primary Project Manager and QA reviewer for my team of 5</li>
@@ -260,7 +260,7 @@
         <!-- TRADE UP -->
         <div class="row" id="tradeup">
         <div class="col l5 m5 s12 breathing-room">
-          <h4>TradeUP</h4>
+          <h4 class="project-title bordered-title">TradeUP</h4>
           <div class="picContainer">
             <img src="http://i.imgur.com/Hmbus65.png" class="z-depth-3 project-img" alt="Home View of TradeUP Project" title="Home View of TradeUP Project">
             <div class="overlay">
@@ -273,7 +273,7 @@
         <div class="col l7 m7 s12 breathing-room" id="tradeup-info">
           <a href="http://trade-up.herokuapp.com/">View on Heroku</a> | <a href="https://github.com/mwiley322/TradeUp_1">View on Github</a>
           <p style="text-align: left">TradeUP is a Craigslist-style bartering app that allows users to make site-based transactions on items, services, and experiences. The app was inspired by a man who continuously traded up small items until he ultimately ended up with a house.</p>
-          <ul style="text-align: left">
+          <ul class="responsibilities">
             <li>> Led front end prototyping and development</li>
             <li>> Acted as Project Manager for 3 other engineers</li>
             <li>> Encouraged clear, actionable steps by creating custom infographics for main page</li>

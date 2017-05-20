@@ -1,20 +1,20 @@
 /* Tablet */
-@media screen and (min-width: 700px) and (max-width: 980px){
+/*@media screen and (min-width: 700px) and (max-width: 1103px){
   #header {
     height:520px;
   }
-}
+}*/
 
 /* Mobile HD */
-@media screen and (min-width: 460px) and (max-width: 700px){
+/*@media screen and (min-width: 460px) and (max-width: 700px){
   #header {
     height:500px;
     background-position: right -100px top
   }
-}
+}*/
 
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 768px){
   nav {
     height: 65px;
     line-height: 65px;
@@ -60,10 +60,6 @@
     text-align: left;
   }
 
-  /*#projects {
-    padding-top: 100px;
-  }*/
-
   #octoboard {
     padding: 30px 0 0 0;
   }
@@ -79,6 +75,61 @@
     margin-top: 40px;
   }
 
+  #featured-project {
+    padding-bottom: 60px;
+  }
+
+  .item-list {
+    text-align: center;
+  }
+
+  #tradeup,
+  #wingit,
+  #techspace {
+    padding: 0;
+    text-align: justify;
+  }
+
+  #wingit-info,
+  #tradeup-info {
+    padding-top: 55px;
+  }
+
+  .responsibilities li {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .project-title {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .bordered-title {
+    border-top: 1px solid grey;
+    padding-top: 25px;
+  }
+
+  #other-projects {
+    padding-bottom: 25px;
+  }
+
+  #experience-squiggle {
+    margin-bottom: 55px;
+  }
+
+  #contact {
+    width: 90vw;
+    margin-top: -25vw;
+    margin-right: 5%;
+    margin-left: 5%;
+    max-width: 90vw;
+    padding: 0 20px;
+  }
+
+  #contact-back {
+    height: 360px;
+  }
   /*#header-text-mobile {
     visibility: visible;
     position: absolute;
