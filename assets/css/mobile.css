@@ -54,6 +54,20 @@
     background-position: right -40px top
   }
 
+  #sub-header {
+    margin-left: -1.5vw;
+    margin-top: 91.5vw;
+    font-weight: 800;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 3em;
+    color: white;
+  }
+
+  #mobile-header {
+    visibility: visible;
+  }
+
   #about-me {
     width: 90vw;
     margin-top: -10vw;
