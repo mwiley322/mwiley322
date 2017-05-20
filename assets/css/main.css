@@ -44,11 +44,6 @@ h3 {
   letter-spacing: -.70vw;
 }
 
-#header-text-mobile,
-#sub-header-mobile {
-  visibility: hidden;
-}
-
 #sub-header {
   position: absolute;
   left: 14.43vw;
@@ -139,6 +134,7 @@ h3 {
 #back-layer {
   height: 655px;
   background-color: #d5c9d5;
+  position:relative;
 }
 
 .section-header {

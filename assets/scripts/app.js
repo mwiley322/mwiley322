@@ -31,7 +31,6 @@ $(function() {
   });
 
 
-
   //update copyright year
   currentYear = new Date().getFullYear()
   $('#year').text(currentYear);
