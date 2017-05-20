@@ -35,27 +35,29 @@ h3 {
   font-family: 'Yantramanav', sans-serif;
 }
 
-/*
+
 #header-text {
+  visibility: visible;
   font-size: 7vw;
   font-weight: 700;
   margin-top: 0px;
   padding-top: 11vw;
   margin-left: 14vw;
   letter-spacing: -.70vw;
-}*/
+}
 
 #mobile-header {
   visibility: hidden;
 }
 
-/*#sub-header {
+#sub-header {
+  visibility: visible;
   letter-spacing: 1px;
   margin-left: 14.5vw;
   margin-top: -1.5vw;
   font-family: 'Yantramanav', sans-serif;
   letter-spacing: 1px;
-}*/
+}
 
 #header-text span,
 #sub-header span {
