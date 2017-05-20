@@ -198,14 +198,47 @@ h2, h3 {
 
 /*PROJECT SECTION */
 
-#project-squiggle {
+#featured-project-squiggle {
   margin-bottom: 60px;
 }
 
-#projects {
+#project-container {
+  width: 86%;
+  max-width: 86%;
+  margin-right: 7%;
+  margin-left: 7%;
+  color: #333;
+}
+
+#project-container h4 {
+  font-size: 2.1rem;
+  font-family: 'Yantramanav', sans-serif
+}
+
+#project-container h5 {
+  font-size: 1.5rem;
+  font-family: 'Yantramanav', sans-serif
+}
+
+#featured-project {
   padding-top: 100px;
   padding-bottom: 150px;
   background-color: #efe2da;
+}
+
+#octoboard {
+  background-color: #eaeded;
+  padding: 30px;
+}
+
+.project-item {
+  margin-bottom: .812em;
+  padding: .2em 1.5em;
+  font-size: .75em;
+  line-height: 1;
+  font-style: italic;
+  background-color: #d5c9d5;
+  border-radius: 41.625em;
 }
 
 .project-img {

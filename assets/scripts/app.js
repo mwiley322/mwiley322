@@ -12,7 +12,7 @@ $(function() {
   $(".projects-btn").click(function() {
     $('.button-collapse').sideNav('hide');
     $('html, body').animate({
-        scrollTop: $("#projects").offset().top
+        scrollTop: $("#featured-project").offset().top
     }, 600);
   });
 
