@@ -391,6 +391,10 @@ h3 {
   font-family: 'Yantramanav', sans-serif;
 }
 
+#contact-prompt {
+  font-size: 1.8rem;
+}
+
 #contact-squiggle {
   margin-bottom: 1.5rem;
 }
