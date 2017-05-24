@@ -14,11 +14,13 @@
     <link href="https://fonts.googleapis.com/css?family=Yantramanav:100" rel="stylesheet">
     <script src="https://use.fontawesome.com/caa5c82995.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-    <link rel="stylesheet" href="assets/css/default.min.css">
-    <link rel="stylesheet" href="assets/css/frst-timeline-style-1.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/vendor_css/default.min.css">
+    <link rel="stylesheet" href="assets/vendor_css/frst-timeline-style-1.css">
+    <link rel="stylesheet" href="assets/vendor_css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="gulped/all-raw-styles.min.css">
+
+    <!-- <link rel="stylesheet" type="text/css" href="assets/raw_css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/raw_css/mobile.css"> -->
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
@@ -63,8 +65,7 @@
             <h1 id="header-text-mobile">Megan R. Wiley</h1>
             <h4 id="sub-header-mobile">Full Stack Web Developer</h4>
             <a href="https://www.linkedin.com/in/meganrwiley/" target="_blank"><i class="fa fa-2x fa-linkedin-square" style="color: #fbf2f3; padding: 7px" alt="LinkedIn Logo" title="Go to my LinkedIn"  aria-hidden="false"></i></a>
-            <a href="https://github.com/mwiley322" target="_blank"><i class="fa fa-2x fa-github" style="color: #fbf2f3; padding: 7px" alt="Github Logo" title="Go to my Github" aria-hidden="false"></i></a>
-            <!-- <a href="#" target="_blank"><i class="fa fa-2x fa-file-text-o" style="color: #009271" alt="Resume Icon" title="View Resume" aria-hidden="false"></i></a> -->
+            <a href="https://github.com/mwiley322" target="_blank"><i class="fa fa-2x fa-github" style="color: #fbf2f3; padding: 7px" alt="GithHub Logo" title="Go to my Github" aria-hidden="false"></i></a>
             <a href="mailto:mwiley322@gmail.com"><i class="fa fa-2x fa-envelope-o" style="color: #fbf2f3; padding: 7px" alt="Envelope Icon" title="Email Me"  aria-hidden="false"></i></a>
           </div>
         </div>
@@ -116,7 +117,7 @@
               <li class="item">Bootstrap</li>
               <li class="item">Materialize</li>
               <li class="item">Sketch</li>
-              <li class="item">Git/Github</li>
+              <li class="item">Git/GitHub</li>
               <li class="item">TDD</li>
               <li class="item">Responsive Design</li>
               <li class="item">SEO</li>
@@ -137,7 +138,7 @@
         <div class="row" id="octoboard">
           <div class="col l6 m6 s12 breathing-room" id="featured-left">
             <h4>Octoboard</h4>
-            <a href="http://octoboard.herokuapp.com/">View on Heroku</a> | <a href="https://github.com/mwiley322/octoboard">View on Github</a>
+            <a href="http://octoboard.herokuapp.com/">View on Heroku</a> | <a href="https://github.com/mwiley322/octoboard">View on GitHub</a>
             <div id="featured-info">
               <p>Octoboard is a CRM-like organizational tool created for job seekers to organize their job search. It holds details on applications, interviews, coding challenges, goals,
               practice interview questions, date reminders, and more.</p>
@@ -204,13 +205,13 @@
               <img src="http://i.imgur.com/VHQyNNC.png" class="z-depth-3 project-img" alt="Home View of TechSpace Project" title="Home View of TechSpace Project">
               <div class="overlay">
                 <a href="https://github.com/mwiley322/Project1-EventApp" target="_blank">
-                  <div class="text">View on Github</div>
+                  <div class="text">View on GitHub</div>
                 </a>
               </div>
             </div>
           </div>
           <div class="col l7 m7 s12 breathing-room" id="techspace-info">
-            <a href="https://github.com/mwiley322/Project1-EventApp">View on Github</a>
+            <a href="https://github.com/mwiley322/Project1-EventApp">View on GitHub</a>
             <p style="text-align: left">TechSpace is a MEN stack networking application made for the tech community which focuses on connecting users through tech-related events.</p>
             <ul class="responsibilities">
               <li>> Built entire database infrastructure and designed error handling and data validation solutions</li>
@@ -237,13 +238,13 @@
               <img src="http://i.imgur.com/hRrKSJY.png" class="z-depth-3 project-img" alt="Home View of WingIt Project" title="Home View of WingIt Project">
               <div class="overlay">
                 <a href="https://github.com/mwiley322/wingIt" target="_blank">
-                  <div class="text">View on Github</div>
+                  <div class="text">View on GitHub</div>
                 </a>
               </div>
             </div>
           </div>
           <div class="col l7 m7 s12 breathing-room" id="wingit-info">
-            <a href="https://github.com/mwiley322/wingIt">View on Github</a>
+            <a href="https://github.com/mwiley322/wingIt">View on GitHub</a>
             <p style="text-align: left">WingIt is a MERN stack travel application where users can connect through city-specific site pages, share experiences through posts, and hold conversations through comments.</p>
             <ul class="responsibilities">
               <li>> Implemented Auth0 for user authentication; developed user CRUD functionality</li>
@@ -275,7 +276,7 @@
           </div>
         </div>
         <div class="col l7 m7 s12 breathing-room" id="tradeup-info">
-          <a href="http://trade-up.herokuapp.com/">View on Heroku</a> | <a href="https://github.com/mwiley322/TradeUp_1">View on Github</a>
+          <a href="http://trade-up.herokuapp.com/">View on Heroku</a> | <a href="https://github.com/mwiley322/TradeUp_1">View on GitHub</a>
           <p style="text-align: left">TradeUP is a Craigslist-style bartering app that allows users to make site-based transactions on items, services, and experiences. The app was inspired by a man who continuously traded up small items until he ultimately ended up with a house.</p>
           <ul class="responsibilities">
             <li>> Led front end prototyping and development</li>

@@ -1,0 +1,25 @@
+{
+  "name": "mwiley322.github.io",
+  "version": "1.0.0",
+  "description": "Personal portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwiley322/mwiley322.github.io.git"
+  },
+  "author": "Megan Wiley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwiley322/mwiley322.github.io/issues"
+  },
+  "homepage": "https://github.com/mwiley322/mwiley322.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4"
+  }
+}
